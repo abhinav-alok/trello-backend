@@ -1,0 +1,28 @@
+{
+  "name": "trello-backend",
+  "version": "1.0.0",
+  "description": "Backend for trello app",
+  "main": "index.js",
+  "scripts": {
+    "serve": "ts-node ./src/server.ts",
+    "tsc": "tsc",
+    "test": "jest"
+  },
+  "author": "Abhinav Alok",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "querymen": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/mongoose": "^5.7.10",
+    "@types/node": "^13.11.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  }
+}
